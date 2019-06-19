@@ -326,6 +326,9 @@ h3#rock {
    .header {
       width: 600px;
    }
+   header {
+      width: 600px;
+   }
 }
 
 @media screen and (max-width: 640px) {
@@ -337,5 +340,8 @@ h3#rock {
    }
    .header {
       width: 500px;
+   }
+   header {
+      width:500px;
    }
 }
