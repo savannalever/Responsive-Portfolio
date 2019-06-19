@@ -1,0 +1,341 @@
+* {
+   box-sizing: border-box;
+}
+header {
+   width: 960px;
+   margin: 0 auto;
+   margin-top: 15px;
+}
+h1 {
+   font-family:'Satisfy', cursive;
+   color: #ffffff;
+   border: 5px solid #82af89;
+   background-color: #82af89;
+   text-align: center;
+   width: 33%;
+   float: left;
+   margin-top: 20px;
+   margin-bottom: 0;
+   padding: 20px;
+}
+.everythingelse {
+   background: url("../images/tree_bark.png");
+   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+   width: 100%;
+   margin: 0 auto;
+   clear: both;
+}
+ .header{
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #82af89;
+    clear: both;
+ } 
+
+a {
+  color: #82af89;
+  text-decoration: none;
+  transition: 0.5s;
+ }
+ a:hover {
+    font-weight: 600;
+ }
+ nav {
+     float: right;
+     margin-bottom: 0px;
+     margin-top: 65px;
+ }
+ .maincontent {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    overflow: auto;
+    clear: both;
+    border: 3px solid #dddddd;
+    width: 960px;
+    margin: 0 auto;
+
+  }
+
+  p {
+   text-indent: 2.0em;
+  }
+
+ .img {
+    float: left;
+    padding-right: 15px;
+    padding-bottom: 15px;
+ }
+
+ input[type=submit] {
+    background-color: #82af89;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+ }
+
+ input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #c0bfbf; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px;
+    resize: vertical
+  }
+
+ 
+.footer {
+   background-color: #9c9c9c;
+   border: 5px solid #9c9c9c;
+   border-top: 5px solid #82af89;
+   height: 50px;
+   text-align: center;
+   clear: both;
+   margin-top: 20px;
+   padding-top: 10px;
+   color: white;
+   font-size: smaller;
+}
+
+.portfolio {
+   display: block;
+   background-color: white;
+   padding: 10px; 
+   height:1000px;
+   margin:0 auto;
+   padding-bottom: 20px;
+} 
+img.hangman {
+   position: relative;
+   float:left;
+   top:20px;
+}
+img.rpg{
+   position: relative;
+   float: right;
+   margin-right: 100px;
+   top:20px;
+}
+img.trivia{
+   position: relative;
+   float:left;
+   top:60px;
+}
+img.rutgers{
+   position: relative;
+   float: right;
+   top:60px;
+   margin-right: 100px;
+}
+img.rock{
+   position: relative;
+   float:left;
+   top:120px;
+}
+
+div.hangman{
+   display: block;
+   position: relative;
+   background-color: #82af89;
+   width:300px;
+   float:left;
+   bottom: 340px;
+   right:300px;
+   color:white;
+
+}
+
+
+div.rpg{
+   display: block;
+   position: relative;
+   background-color:#82af89;
+   float: right;
+   width: 300px;
+   right: 100px;
+   bottom: 400px;
+   color:white;
+
+}
+div.trivia{
+   display: block;
+   position: relative;
+   background-color:#82af89;
+   float:left;
+   width: 300px;
+   right:300px;
+   bottom:160px;
+   color:white;
+ 
+
+}
+div.rutgers{
+   display: block;
+   position: relative;
+   background-color:#82af89;
+   float: right;
+   width: 300px;
+   right:100px;
+   bottom: 220px;
+   color:white;
+ 
+
+}
+div.rock{
+   display: block;
+   position: relative;
+   background-color:#82af89;
+   float:left;
+   width: 300px;
+   right:300px;
+   bottom:-30px;
+   color:white;
+
+}
+
+h3#hangman {
+   clear: both;
+   position: relative;
+   left:100px;
+}
+h3#rpg {
+   position: relative;
+   left:100px;
+}
+h3#trivia {
+   position: relative;
+   left:100px;
+}
+h3#rutgers {
+   position: relative;
+   left:80px;
+}
+h3#rock {
+   position: relative;
+   left:80px;
+}
+
+@media screen and (max-width: 800px){
+ img.hangman {
+ width:200px; 
+ height:150px;
+ float:left;
+ padding:5px;
+}
+ img.rpg {
+ width:200px; 
+ height:150px;
+ float:none;
+ margin-right:600px;
+ padding:5px;
+}
+ img.trivia {
+ width:200px;
+ height:150px;
+ float:none;
+ margin-right:600px;
+ padding:5px;
+ top: 20px;
+}
+ img.rutgers {
+ width:200px;
+ height:150px;
+ float:none;
+ margin-right:600px;
+ padding:5px;
+}
+ img.rock {
+ width:200px; 
+ height:150px;
+ float:none;
+ margin-right:600px;
+ padding:5px;
+}
+ div.hangman {
+ width: 190px;
+ float: none;
+ bottom:660px;
+ left:5px;
+ padding: 0px 
+}
+ h3#hangman {
+ font-size: medium;
+ left:60px;
+}  
+ div.rpg {
+ width: 190px; 
+ float: none;
+ bottom:550px;
+ left:5px;
+ padding: 0px 
+}
+ h3#rpg {
+ font-size: medium;
+ left:60px;
+}  
+ div.trivia {
+ width: 190px;
+ float: none;
+ bottom:430px;
+ left:5px;
+ padding: 0px 
+}
+ h3#trivia {
+ font-size: medium;
+ left:60px;
+} 
+ div.rutgers {
+ width: 190px; 
+ float: none;
+ bottom:270px;
+ left:5px;
+ padding: 0px 
+}
+ h3#rutgers {
+ font-size: medium;
+ left:30px;
+} 
+ div.rock {
+ width: 190px; 
+ float: none;
+ bottom:90px;
+ left:5px;
+ padding: 0px 
+}
+ 
+ h3#rock{
+ font-size: medium;
+ left:30px;} 
+}
+
+@media screen and (max-width: 980px) {
+   .wrapper {
+      width:960px;
+   }
+   .header {
+      width:960px;
+   }
+}
+
+@media screen and (max-width: 768px) {
+   .everythingelse {
+      width: 600px;
+   }
+   .maincontent {
+      width: 600px;
+   }
+   .header {
+      width: 600px;
+   }
+}
+
+@media screen and (max-width: 640px) {
+   .everythingelse {
+      width: 500px;
+   }
+   .maincontent {
+      width: 500px;
+   }
+   .header {
+      width: 500px;
+   }
+}
